@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📈 Crypto Tracker</h1>
+        <p style="color: #888; margin-top: 4px; margin-bottom: 20px;">my second API project :)</p>
+
+        <div class="top-bar">
+            <p id="lastUpdated" style="color: #888; font-size: 13px;">Loading...</p>
+            <button onclick="loadPrices()">🔄 Refresh</button>
+        </div>
+
+        <p id="errorText" style="display:none; color: #e74c3c;">Failed to load prices. Try again later.</p>
+
+        <div id="coinList"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
