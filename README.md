@@ -3,7 +3,7 @@
 This is my sixth independent project built during my web development journey — and the first one I built completely on my own, without any course or platform like Scrimba guiding me. A clean crypto tracker that fetches live prices and 24h changes for the most popular cryptocurrencies.
 
 ## 🔗 Live Demo
-Coming soon
+[https://crypto-tracker44.netlify.app/](https://crypto-tracker44.netlify.app/)
 
 ## 🛠 Tech Stack
 * **HTML5** - For the structure of the app
